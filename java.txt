@@ -1,0 +1,148 @@
+
+document.getElementById("demo").innerHTML = 'Hello JavaScript'
+ pega o elemento com base no id e o inner injeta algum valor nesse elemento
+
+document.getElementById("demo").style.fontSize = "35px"
+ altera style do elemento
+
+document.write(5 + 6);
+ escreve um valor indeterminado o elemento
+
+window.alert(5 + 6);
+ exibe uma caixa de alerta
+
+console.log(5 + 6);
+ print no console
+
+window.print()
+ função que imprime a tela
+
+declaração de variavel
+  let a ,b, c; //declarou 3 variaveis sem valor
+  a = 5;       // atribuiu 5 a variavel a
+  b = 6;
+  c = a + b;
+
+{} define instruções a serem executadas
+  function myFunction() {
+  document.getElementById("demo1").innerHTML = "Hello Dolly!";
+  document.getElementById("demo2").innerHTML = "How are you?";
+ }
+
+Se quiser que seu código seja executado em um navegador mais antigo,
+ você deve usar var.
+
+let não pode ser redeclaradas
+  let x = "John Doe";
+  let x = 0;
+  // SyntaxError: 'x' has already been declaerd
+com var sim
+   var x = "John Doe";
+   var x = 0;
+
+variavveis dentro de um bloco nao pode ser usada fora dele 
+   {
+       lex x = 2
+   }
+   // x can NOT be used here
+
+const
+  const cars = ["Saab","Volvo","BMW"];
+  cars[0] = "Toyota";
+  cars.push("Audi");
+
+booleanos podem ter dois valores true or false
+   let x = 5;
+   let y = 5;
+   let z = 6;
+   (x == y)   // Returns true
+   (x == z)   // Returns false
+
+Arrays matrizes e como uma lista 0 a 1index
+   const cars = ["Saab","Volvo","BMW"]
+
+OBJETOS
+   const person = {first:"John", lastName:"Doe",age:50,eyeColor:"blue"};
+
+typeof retorna o tipo da variavel
+ typeof ""
+ typeof "John" retorna str 
+
+FUNCTION 
+ function name(parameter1,parameter2){
+     /code to be executed
+ }
+ x = name()
+
+OBJETOS
+  const person = {
+     firstName: "John",
+     lastName: "Doe",
+     age: 50,
+     eyeColor: "blue"
+  };
+  person.firstName;
+  person.age;
+
+  const person = {
+    fistName: 'John',
+    lastName: 'Doe',
+    age: 50,
+    id : 5566,
+    fullname : function(){
+        return person.fistName + ' ' + person.lastName
+    }
+};
+
+console.log(person.fullname())
+
+string
+ ver comprientode uma str
+ value.length
+ str.slice(pa,pa2) extrai uma parte da uma str
+
+ let text = "Please visit Microsoft"
+let newText = text.replace("Microsoft", "W3Schools")
+console.log(newText)
+
+ let text1 = "      Hello World!      ";
+ let text2 = text1.trim();
+
+ remove os espaços entre a str
+
+numero
+ javasrcipt mesmo sendo ums st se for um nuero ele faz operação
+
+ metodods
+ value.toString() faz ser uma str
+ value.parsInt() faz ser um numero inteiro
+
+arrays = objeto
+  
+  const cars = [
+     "Saab",
+     "Volvo",
+     "BMW"
+  ];
+  para adicionar
+  cars[3] = "Gol"
+
+  pegar ultimo valor arrays
+  let fruit = fruits[fruits.length - 1]
+
+  Você deve usar objetos quando quiser que os nomes dos elementos sejam strings (texto) .
+  Você deve usar arrays quando quiser que os nomes dos elementos sejam números .
+
+  metodods
+
+  array.join(" * ")
+  une toda a array com um separador
+
+  array.pop()
+  remove o ultimo elemnto da array
+
+  array.push()
+  adicina um elemnto no final da fila
+
+  array.splice(2,0,"Leamon", "Kiwi");
+  posição de adicionar / numero removidos
