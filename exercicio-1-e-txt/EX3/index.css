@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    color: white;
+    height: 100vh;
+}
+main > div{
+    text-align: center;
+}
+
+.botoes button{
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}

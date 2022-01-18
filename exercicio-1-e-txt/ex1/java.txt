@@ -146,3 +146,27 @@ arrays = objeto
 
   array.splice(2,0,"Leamon", "Kiwi");
   posição de adicionar / numero removidos
+
+  array.sort()
+  organiza de forma alfabetica
+
+  function maxArray(array){
+     return Math.max.apply(null,array)
+  }
+  retorna o maior valor de um array !important
+
+  function minArray(array){
+     return Math.min.apply(null,array)
+  }
+  retorna o menor valor de um array
+
+  PEGAR CADA ARRAY separador
+
+  const a = [20,32,12,34]
+  let txt = ''
+
+  a.Foreach(function4)
+
+  function funtion4(value){
+     txt += value + '<br>'
+  }

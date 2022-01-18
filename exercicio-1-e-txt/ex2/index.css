@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    height: 97vh;
+}
+main div button{
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    transition: all 0.9 ease-in-out;
+}
+main div button:hover{
+    color: white;
+    background: black;
+}
+
+main > div{
+    text-align: center;
+}
